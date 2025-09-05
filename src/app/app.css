@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    background-color: rgb(40, 41, 44);
+    height: 100vh;
+    width: auto;
+}
+.route-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}

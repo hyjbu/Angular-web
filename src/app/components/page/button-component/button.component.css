@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+
+.button-container {
+    display: inline;
+    width: 600px;
+}
+
+.button-container button {
+  border: none;
+  border-radius: 4px;
+  width: 150px;
+  height: 60px;
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Primary {
+  color: white;
+  cursor: pointer;
+  background-color: #0073ea;
+}
+
+.Priactive:hover {
+  background-color: rgb(25, 56, 114);
+  transition: 0.5s;
+}
+
+.Priactive:focus {
+  background-color: rgb(89, 245, 248);
+}
+
+.Priactive:active {
+  background-color: rgb(248, 89, 89);
+}
+
+.Secondary {
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.Secactive:hover {
+  background-color: rgb(25, 56, 114);
+  transition: 0.5s;
+}
+.Secactive:focus {
+  background-color: rgb(89, 245, 248);
+}
+.Secactive:active {
+  background-color: rgb(248, 89, 89);
+}
+
+.Tertiary {
+  color: white;
+  cursor: pointer;
+  background: inherit;
+}
+
+.Teractive:hover {
+  background-color: gray;
+  transition: 0.5s;
+}
+
+.Teractive:focus {
+  background-color: rgb(57, 51, 51);
+}
+
+.Teractive:active {
+  background-color: rgb(248, 89, 89);
+}
+
+.pri_disable {
+    cursor: default;
+    background-color: none;
+    opacity: 0.7;
+}
+
+.sec_disable {
+  cursor: default;
+  background-color: none;
+  color: rgb(121, 121, 121);
+  opacity: 0.8;
+}
+
+.ter_disable {
+  cursor: default;
+  background-color: transparent;
+  color: rgb(206, 206, 206)
+}

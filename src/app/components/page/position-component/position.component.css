@@ -1,0 +1,58 @@
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 200vh;
+    height: 200vh;
+    background-color: rgb(40, 41, 44);
+}
+.poscontainer {
+    position: absolute;
+    top: 20px;
+    width: 100vh;
+    left: 400px;
+    height: 1000px;
+}
+
+.posStatic {
+    position: static;
+    border: 2px solid gold;
+    padding: 10px;
+}
+
+.posRelative {
+    position: relative;
+    border: 2px solid red;
+    margin: 50px 50px 50px 0px;
+    padding: 40px;
+    width: 400px;
+    height: 300px;
+    font-size: 30px;
+}
+
+.posAbsolute {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 2px solid blue;
+}
+
+.posSticky {
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    margin-left: 400px;
+    border: 2px solid green;
+    z-index: 1;
+    padding: 10px;
+}
+
+.posFixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid magenta;
+    padding: 10px;
+}

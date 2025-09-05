@@ -1,0 +1,14 @@
+<h3 class="titlemargin">
+      MARGIN IS THE SPACE OUTSIDE THE BORDER OF ELEMENT
+</h3>
+<div class="container">
+  <div class="margin-container">
+    <div class="example1" [ngStyle]="{'margin.px': marginValue}">
+      This is an example of margin: {{marginValue}}px
+    </div>
+    <div class="example2" [ngStyle]="{'margin.px': marginValue}">
+      This is another example of margin: {{marginValue}}px
+    </div>
+  </div>
+  <input type="range" min="1" max="100" class="inputbox" [(ngModel)]="marginValue" />
+</div>
